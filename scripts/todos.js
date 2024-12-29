@@ -105,6 +105,7 @@ async function changeStatusFn(el,i){
             },
             body:JSON.stringify(updatedTodos)
         })
+        alert("Todos Status updated Successfully....");
        getTodos();
         
     }
