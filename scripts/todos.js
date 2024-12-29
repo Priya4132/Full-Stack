@@ -120,6 +120,7 @@ async function changeStatusFn(el,i){
 
 async function deleteTodoFn(el, i) {
     let todoId = el.id;
+   if(confirm("Are you sure to delete Todos?")) {
     fetch(`https://scientific-young-ankylosaurus.glitch.me/todos/${todoId}`, {
       method: "DELETE",
     })
@@ -135,3 +136,4 @@ async function deleteTodoFn(el, i) {
         console.log(err);
       });
   }
+}
