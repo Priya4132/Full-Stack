@@ -1,4 +1,4 @@
-let form = document.getElementById("login-form");
+let form = document.getElementById("form");
 form.addEventListener("submit", function () {
   event.preventDefault();
   let email = form.email.value;
