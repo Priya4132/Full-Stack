@@ -5,7 +5,7 @@ form.addEventListener("submit", function () {
   let password = form.password.value;
  
   /// logic is check whether email is present in the DB
-  fetch(`${baseUrl}/users`)
+  fetch("https://scientific-young-ankylosaurus.glitch.me/login")
     .then((res) => res.json())
     .then((data) => {
       let user = data.filter((el, i) => el.email == email);
