@@ -1,0 +1,73 @@
+/* styling for todos form */
+
+#form{
+    width: 30%;
+    height: 400px;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: rgb(12, 12, 12);
+    background-color: rgb(199, 199, 199);
+    padding: 20px;
+    text-align: center;
+}
+
+#submit{
+    background-color: rgb(240, 222, 222);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* styling for todos container */
+
+#cont{
+    width: 80%;
+    border: 1px solid black;
+    margin:20px auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    padding:10px;
+}
+.pending{
+    border:2px solid red;
+}
+/* styling for logout button */
+#logout{
+    background-color: rgb(253, 201, 236);
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+/* styling for todos button */
+.todobtns{
+    background-color:rgb(253, 201, 236);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+    margin:5px;
+}
+#todo-form h2{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 25px;
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+}
+
+

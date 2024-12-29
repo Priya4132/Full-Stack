@@ -1,0 +1,23 @@
+/* stling for signup form */
+
+#form, #login-form{
+    width: 30%;
+    height: 400px;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: rgb(220, 183, 255);
+    background-color: rgb(199, 199, 199);
+    padding: 20px;
+    text-align: center;
+}
+
+#submit{
+    background-color: rgb(240, 222, 222);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}

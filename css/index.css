@@ -1,9 +1,10 @@
 /* .cont{
     border: 1px solid black;
 } */
-
+/* styling of nav bar */
 #nav{
-    background-color: rgb(194, 57, 248);
+    background-color: rgb(31, 72, 105);
+    /* margin-top:0; */
 }
 #nav-container{
     display: flex;
@@ -16,11 +17,21 @@
     display: flex;
     justify-content: space-around;
     gap:30px;
+    width:40%;
     padding: 10px;
 }
-
+#nav-container a {
+    text-shadow: 1px 1px 2px pink;
+color:white;
+text-decoration: none;
+font-size: 20px;;
+}
+ /* styling for home page main content */
 #content{
     /* margin: auto; */
     text-align: center;
     margin-top: 150px;
 }
+
+
+
